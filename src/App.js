@@ -1,4 +1,4 @@
-import { Container, Typography, Grid, TextField, FormControl, Select, MenuItem, InputLabel } from "@mui/material"
+import { Container, Typography, Grid, TextField, FormControl, Select, MenuItem } from "@mui/material"
 
 import './App.css';
 
@@ -101,8 +101,16 @@ function App() {
                     <MenuItem value={6}>Nupcias</MenuItem>
                     <MenuItem value={7}>Falta</MenuItem>
                     <MenuItem value={8}>Disp Medica</MenuItem>
-                    <MenuItem value={3}>Curso</MenuItem>
-                    <MenuItem value={3}>Voô</MenuItem>
+                    <MenuItem value={9}>Curso</MenuItem>
+                    <MenuItem value={10}>Voô</MenuItem>
+                    <MenuItem value={11}>Missão</MenuItem>
+                    <MenuItem value={12}>Serviço</MenuItem>
+                    <MenuItem value={13}>SSV</MenuItem>
+                    <MenuItem value={14}>BAdm</MenuItem>
+                    <MenuItem value={15}>CMN</MenuItem>
+
+
+
                   </Select>
                 </FormControl>
 
