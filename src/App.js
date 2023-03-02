@@ -37,14 +37,6 @@ function App() {
       nome: "CB LUDSON"
     },
     {
-      id: 14,
-      nome: "CB ADRYANN"
-    },
-    {
-      id: 15,
-      nome: "CB ELIAS"
-    },
-    {
       id: 9,
       nome: "CB ADRIANO"
     },
@@ -62,6 +54,10 @@ function App() {
     },
     {
       id: 13,
+      nome: "SD JUNIOR"
+    },
+    {
+      id: 14,
       nome: "SD HUGO MOREIRA"
     },
   ]
@@ -108,8 +104,7 @@ function App() {
                     <MenuItem value={13}>SSV</MenuItem>
                     <MenuItem value={14}>BAdm</MenuItem>
                     <MenuItem value={15}>CMN</MenuItem>
-
-
+                    <MenuItem value={16}>Instrução</MenuItem>
 
                   </Select>
                 </FormControl>
