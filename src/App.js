@@ -60,6 +60,22 @@ function App() {
       id: 14,
       nome: "SD HUGO MOREIRA"
     },
+    {
+      id: 15,
+      nome: "SD BRASIL"
+    },
+    {
+      id: 14,
+      nome: "SD RUBENS"
+    },
+    {
+      id: 14,
+      nome: "SD SENA"
+    },
+    {
+      id: 14,
+      nome: "SD HAILSON"
+    },
   ]
 
 
@@ -105,6 +121,8 @@ function App() {
                     <MenuItem value={14}>BAdm</MenuItem>
                     <MenuItem value={15}>CMN</MenuItem>
                     <MenuItem value={16}>Instrução</MenuItem>
+                    <MenuItem value={17}>Formatura</MenuItem>
+
 
                   </Select>
                 </FormControl>
