@@ -42,11 +42,11 @@ function App() {
     },
     {
       id: 10,
-      nome: "SD ALBERT"
+      nome: "CB JONILLE"
     },
     {
       id: 11,
-      nome: "SD JONILLE"
+      nome: "CB ALBERT"
     },
     {
       id: 12,
@@ -122,6 +122,8 @@ function App() {
                     <MenuItem value={15}>CMN</MenuItem>
                     <MenuItem value={16}>Instrução</MenuItem>
                     <MenuItem value={17}>Formatura</MenuItem>
+                    <MenuItem value={18}>Rancho</MenuItem>
+
 
 
                   </Select>
