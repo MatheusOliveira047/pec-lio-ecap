@@ -33,6 +33,10 @@ function App() {
       nome: "3ºSGT SARAIVA"
     },
     {
+      id: 15,
+      nome: "3ºSGT HELENA ARAUJO"
+    },
+    {
       id: 8,
       nome: "CB LUDSON"
     },
