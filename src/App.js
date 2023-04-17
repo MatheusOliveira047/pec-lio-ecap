@@ -10,6 +10,14 @@ function App() {
     },
     {
       id: 2,
+      nome: "1ºTEN KUCHUMINSKI"
+    },
+    {
+      id: 2,
+      nome: "ST ROGERS"
+    },
+    {
+      id: 2,
       nome: "ST CARLOS"
     },
     {
@@ -43,6 +51,14 @@ function App() {
     {
       id: 9,
       nome: "CB ADRIANO"
+    },
+    {
+      id: 9,
+      nome: "CB OLIVEIRA"
+    },
+    {
+      id: 9,
+      nome: "CB SANCHES"
     },
     {
       id: 10,
