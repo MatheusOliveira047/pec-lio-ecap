@@ -21,10 +21,6 @@ function App() {
       nome: "ST CARLOS"
     },
     {
-      id: 3,
-      nome: "1ºSGT VITOR"
-    },
-    {
       id: 4,
       nome: "1ºSGT JUNQUEIRA"
     },
@@ -143,6 +139,9 @@ function App() {
                     <MenuItem value={16}>Instrução</MenuItem>
                     <MenuItem value={17}>Formatura</MenuItem>
                     <MenuItem value={18}>Rancho</MenuItem>
+                    <MenuItem value={19}>Licença Paternidade</MenuItem>
+                    <MenuItem value={20}>CFC</MenuItem>
+
 
 
 
