@@ -1,8 +1,9 @@
 import { Container, Typography, Grid, TextField, FormControl, Select, MenuItem } from "@mui/material"
-
-import './App.css';
+import { useState } from "react";
 
 function App() {
+  const [destino,setDestino] = useState('')
+
   const militares = [
     {
       id: 1,
@@ -39,6 +40,10 @@ function App() {
     {
       id: 15,
       nome: "3ºSGT HELENA ARAUJO"
+    },
+    {
+      id: 99,
+      nome: "3ºSGT RICELI"
     },
     {
       id: 8,
@@ -94,14 +99,16 @@ function App() {
     },
   ]
 
-
+  console.log(destino)
+  
 
   return (
     <Container maxWidth="sm">
       <Typography align='center' variant="h4" gutterBottom>
         Pecúlio da ECAP
       </Typography>
-      <Grid container>
+     
+          <Grid container>        
         {
           militares.map(militar => (
             <>
@@ -115,11 +122,10 @@ function App() {
               </Grid>
               <Grid item xs={5}>
                 <FormControl fullWidth>
-
                   <Select
                     id="demo-simple-select"
                     fullWidth
-
+                    onChange={(e)=> setDestino(e.target.value)}
                   >
                     <MenuItem value={1}>Pronto</MenuItem>
                     <MenuItem value={2}>Dispensado</MenuItem>
@@ -141,19 +147,15 @@ function App() {
                     <MenuItem value={18}>Rancho</MenuItem>
                     <MenuItem value={19}>Licença Paternidade</MenuItem>
                     <MenuItem value={20}>CFC</MenuItem>
-
-
-
-
                   </Select>
                 </FormControl>
-
-
               </Grid>
             </>
           ))
         }
+        
       </Grid>
+      
     </Container>
   );
 }
