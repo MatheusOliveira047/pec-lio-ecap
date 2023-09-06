@@ -7,7 +7,7 @@ function App() {
   const militares = [
     {
       id: 1,
-      nome: "1º TEN KUCHUMINSKI"
+      nome: "1º TEN DIAS SILVA"
     },
     {
       id: 2,
